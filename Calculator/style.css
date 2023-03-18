@@ -1,0 +1,40 @@
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #121212;
+}
+
+.screen {
+  padding: 20px;
+  background-color: #1c1c1e;
+  color: #fff;
+  text-align: right;
+}
+
+.screen p {
+  font-size: 40px;
+  margin: 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  padding: 10px;
+  background-color: #202020;
+}
+
+button {
+  border: none;
+  font-size: 25px;
+  padding: 15px 0;
+  color: #fff;
+  background-color: #3c3c3e;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #1c1c1e;
+}
