@@ -63,16 +63,3 @@ function calculateResult() {
 
   result.innerHTML = answer;
 }
-
-
-
-
-/*
-function calculateResult() {
-  let calculation = result.innerHTML;
-  if (calculation.indexOf("%") !== -1) {
-    calculation = calculation.replace(/%/g, "/100");
-  }
-  result.innerHTML = eval(calculation);
-}
-*/
